@@ -3,7 +3,7 @@ WARNING	= -Wall -Wextra -pedantic -Wmissing-prototypes \
 	  -Wold-style-definition -Werror -Wno-unused-parameter
 
 CC	= gcc
-CFLAGS	= -std=c99 $(WARNING) -O3 -fno-stack-protector
+CFLAGS	= -std=c99 $(WARNING) -fno-stack-protector
 LDFLAGS	= -fuse-ld=gold
 
 SRC	= 256.c

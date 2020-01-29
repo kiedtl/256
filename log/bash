@@ -1,0 +1,618 @@
+execve("src/bash/256", ["src/bash/256"], 0xbedbe694 /* 33 vars */) = 0
+set_tls(0xb6fb707c)                     = 0
+set_tid_address(0xb6fb7190)             = 10483
+mprotect(0x5b4000, 12288, PROT_READ)    = 0
+open("/dev/tty", O_RDWR|O_NONBLOCK|O_LARGEFILE) = 3
+close(3)                                = 0
+getuid32()                              = 1000
+getgid32()                              = 1001
+geteuid32()                             = 1000
+getegid32()                             = 1001
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+clock_gettime(CLOCK_REALTIME, {tv_sec=1580326089, tv_nsec=499443490}) = 0
+ioctl(-1, TIOCGPGRP, 0xbed08508)        = -1 EBADF (Bad file descriptor)
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0xb6f538dc}, 8) = 0
+uname({sysname="Linux", nodename="3dot14", ...}) = 0
+brk(NULL)                               = 0x1954000
+brk(0x1956000)                          = 0x1956000
+brk(0x1957000)                          = 0x1957000
+stat64("/home/kiedtl/src/256", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/kiedtl", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/kiedtl/src", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/kiedtl/src/256", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat64("/home/kiedtl/src/256/src", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getpid()                                = 10483
+brk(0x1958000)                          = 0x1958000
+getppid()                               = 10480
+clock_gettime(CLOCK_REALTIME, {tv_sec=1580326089, tv_nsec=564655958}) = 0
+getpid()                                = 10483
+brk(0x1959000)                          = 0x1959000
+getpgid(0)                              = 10480
+ioctl(2, TIOCGPGRP, 0xbed083d0)         = -1 ENOTTY (Not a tty)
+rt_sigprocmask(SIG_UNBLOCK, [RT_1 RT_2], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x4eabcc, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0xb6f538dc}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0xb6f538dc}, 8) = 0
+ioctl(2, TIOCGPGRP, 0xbed083b8)         = -1 ENOTTY (Not a tty)
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=1403, rlim_max=1403}) = 0
+brk(0x195a000)                          = 0x195a000
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+open("src/bash/256", O_RDONLY|O_LARGEFILE) = 3
+stat64("src/bash/256", {st_mode=S_IFREG|0755, st_size=230, ...}) = 0
+ioctl(3, TIOCGWINSZ, 0xbed08514)        = -1 ENOTTY (Not a tty)
+_llseek(3, 0, [0], SEEK_CUR)            = 0
+read(3, "#!/usr/bin/bash\n#\n# The bestest "..., 80) = 80
+_llseek(3, 0, [0], SEEK_SET)            = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=4*1024}) = 0
+fcntl64(255, F_GETFD)                   = -1 EBADF (Bad file descriptor)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl64(255, F_SETFD, FD_CLOEXEC)       = 0
+fcntl64(255, F_GETFL)                   = 0x20000 (flags O_RDONLY|O_LARGEFILE)
+fstat64(255, {st_mode=S_IFREG|0755, st_size=230, ...}) = 0
+_llseek(255, 0, [0], SEEK_CUR)          = 0
+brk(0x195b000)                          = 0x195b000
+read(255, "#!/usr/bin/bash\n#\n# The bestest "..., 230) = 230
+writev(1, [{iov_base="0\33[4D\33[4C\33[48;5;0m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 20[4D[4C[48;5;0m[K[m
+) = 25
+brk(0x195c000)                          = 0x195c000
+writev(1, [{iov_base="1\33[4D\33[4C\33[48;5;1m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 21[4D[4C[48;5;1m[K[m
+) = 25
+writev(1, [{iov_base="2\33[4D\33[4C\33[48;5;2m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 22[4D[4C[48;5;2m[K[m
+) = 25
+writev(1, [{iov_base="3\33[4D\33[4C\33[48;5;3m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 23[4D[4C[48;5;3m[K[m
+) = 25
+writev(1, [{iov_base="4\33[4D\33[4C\33[48;5;4m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 24[4D[4C[48;5;4m[K[m
+) = 25
+writev(1, [{iov_base="5\33[4D\33[4C\33[48;5;5m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 25[4D[4C[48;5;5m[K[m
+) = 25
+writev(1, [{iov_base="6\33[4D\33[4C\33[48;5;6m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 26[4D[4C[48;5;6m[K[m
+) = 25
+writev(1, [{iov_base="7\33[4D\33[4C\33[48;5;7m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 27[4D[4C[48;5;7m[K[m
+) = 25
+writev(1, [{iov_base="8\33[4D\33[4C\33[48;5;8m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 28[4D[4C[48;5;8m[K[m
+) = 25
+writev(1, [{iov_base="9\33[4D\33[4C\33[48;5;9m\33[K\33[m", iov_len=24}, {iov_base="\n", iov_len=1}], 29[4D[4C[48;5;9m[K[m
+) = 25
+writev(1, [{iov_base="10\33[4D\33[4C\33[48;5;10m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 210[4D[4C[48;5;10m[K[m
+) = 27
+writev(1, [{iov_base="11\33[4D\33[4C\33[48;5;11m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 211[4D[4C[48;5;11m[K[m
+) = 27
+writev(1, [{iov_base="12\33[4D\33[4C\33[48;5;12m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 212[4D[4C[48;5;12m[K[m
+) = 27
+writev(1, [{iov_base="13\33[4D\33[4C\33[48;5;13m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 213[4D[4C[48;5;13m[K[m
+) = 27
+writev(1, [{iov_base="14\33[4D\33[4C\33[48;5;14m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 214[4D[4C[48;5;14m[K[m
+) = 27
+writev(1, [{iov_base="15\33[4D\33[4C\33[48;5;15m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 215[4D[4C[48;5;15m[K[m
+) = 27
+writev(1, [{iov_base="16\33[4D\33[4C\33[48;5;16m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 216[4D[4C[48;5;16m[K[m
+) = 27
+writev(1, [{iov_base="17\33[4D\33[4C\33[48;5;17m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 217[4D[4C[48;5;17m[K[m
+) = 27
+writev(1, [{iov_base="18\33[4D\33[4C\33[48;5;18m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 218[4D[4C[48;5;18m[K[m
+) = 27
+writev(1, [{iov_base="19\33[4D\33[4C\33[48;5;19m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 219[4D[4C[48;5;19m[K[m
+) = 27
+writev(1, [{iov_base="20\33[4D\33[4C\33[48;5;20m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 220[4D[4C[48;5;20m[K[m
+) = 27
+writev(1, [{iov_base="21\33[4D\33[4C\33[48;5;21m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 221[4D[4C[48;5;21m[K[m
+) = 27
+writev(1, [{iov_base="22\33[4D\33[4C\33[48;5;22m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 222[4D[4C[48;5;22m[K[m
+) = 27
+writev(1, [{iov_base="23\33[4D\33[4C\33[48;5;23m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 223[4D[4C[48;5;23m[K[m
+) = 27
+writev(1, [{iov_base="24\33[4D\33[4C\33[48;5;24m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 224[4D[4C[48;5;24m[K[m
+) = 27
+writev(1, [{iov_base="25\33[4D\33[4C\33[48;5;25m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 225[4D[4C[48;5;25m[K[m
+) = 27
+writev(1, [{iov_base="26\33[4D\33[4C\33[48;5;26m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 226[4D[4C[48;5;26m[K[m
+) = 27
+writev(1, [{iov_base="27\33[4D\33[4C\33[48;5;27m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 227[4D[4C[48;5;27m[K[m
+) = 27
+writev(1, [{iov_base="28\33[4D\33[4C\33[48;5;28m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 228[4D[4C[48;5;28m[K[m
+) = 27
+writev(1, [{iov_base="29\33[4D\33[4C\33[48;5;29m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 229[4D[4C[48;5;29m[K[m
+) = 27
+writev(1, [{iov_base="30\33[4D\33[4C\33[48;5;30m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 230[4D[4C[48;5;30m[K[m
+) = 27
+writev(1, [{iov_base="31\33[4D\33[4C\33[48;5;31m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 231[4D[4C[48;5;31m[K[m
+) = 27
+writev(1, [{iov_base="32\33[4D\33[4C\33[48;5;32m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 232[4D[4C[48;5;32m[K[m
+) = 27
+writev(1, [{iov_base="33\33[4D\33[4C\33[48;5;33m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 233[4D[4C[48;5;33m[K[m
+) = 27
+writev(1, [{iov_base="34\33[4D\33[4C\33[48;5;34m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 234[4D[4C[48;5;34m[K[m
+) = 27
+writev(1, [{iov_base="35\33[4D\33[4C\33[48;5;35m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 235[4D[4C[48;5;35m[K[m
+) = 27
+writev(1, [{iov_base="36\33[4D\33[4C\33[48;5;36m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 236[4D[4C[48;5;36m[K[m
+) = 27
+writev(1, [{iov_base="37\33[4D\33[4C\33[48;5;37m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 237[4D[4C[48;5;37m[K[m
+) = 27
+writev(1, [{iov_base="38\33[4D\33[4C\33[48;5;38m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 238[4D[4C[48;5;38m[K[m
+) = 27
+writev(1, [{iov_base="39\33[4D\33[4C\33[48;5;39m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 239[4D[4C[48;5;39m[K[m
+) = 27
+writev(1, [{iov_base="40\33[4D\33[4C\33[48;5;40m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 240[4D[4C[48;5;40m[K[m
+) = 27
+writev(1, [{iov_base="41\33[4D\33[4C\33[48;5;41m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 241[4D[4C[48;5;41m[K[m
+) = 27
+writev(1, [{iov_base="42\33[4D\33[4C\33[48;5;42m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 242[4D[4C[48;5;42m[K[m
+) = 27
+writev(1, [{iov_base="43\33[4D\33[4C\33[48;5;43m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 243[4D[4C[48;5;43m[K[m
+) = 27
+writev(1, [{iov_base="44\33[4D\33[4C\33[48;5;44m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 244[4D[4C[48;5;44m[K[m
+) = 27
+writev(1, [{iov_base="45\33[4D\33[4C\33[48;5;45m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 245[4D[4C[48;5;45m[K[m
+) = 27
+writev(1, [{iov_base="46\33[4D\33[4C\33[48;5;46m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 246[4D[4C[48;5;46m[K[m
+) = 27
+writev(1, [{iov_base="47\33[4D\33[4C\33[48;5;47m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 247[4D[4C[48;5;47m[K[m
+) = 27
+writev(1, [{iov_base="48\33[4D\33[4C\33[48;5;48m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 248[4D[4C[48;5;48m[K[m
+) = 27
+writev(1, [{iov_base="49\33[4D\33[4C\33[48;5;49m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 249[4D[4C[48;5;49m[K[m
+) = 27
+writev(1, [{iov_base="50\33[4D\33[4C\33[48;5;50m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 250[4D[4C[48;5;50m[K[m
+) = 27
+writev(1, [{iov_base="51\33[4D\33[4C\33[48;5;51m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 251[4D[4C[48;5;51m[K[m
+) = 27
+writev(1, [{iov_base="52\33[4D\33[4C\33[48;5;52m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 252[4D[4C[48;5;52m[K[m
+) = 27
+writev(1, [{iov_base="53\33[4D\33[4C\33[48;5;53m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 253[4D[4C[48;5;53m[K[m
+) = 27
+writev(1, [{iov_base="54\33[4D\33[4C\33[48;5;54m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 254[4D[4C[48;5;54m[K[m
+) = 27
+writev(1, [{iov_base="55\33[4D\33[4C\33[48;5;55m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 255[4D[4C[48;5;55m[K[m
+) = 27
+writev(1, [{iov_base="56\33[4D\33[4C\33[48;5;56m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 256[4D[4C[48;5;56m[K[m
+) = 27
+writev(1, [{iov_base="57\33[4D\33[4C\33[48;5;57m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 257[4D[4C[48;5;57m[K[m
+) = 27
+brk(0x195d000)                          = 0x195d000
+writev(1, [{iov_base="58\33[4D\33[4C\33[48;5;58m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 258[4D[4C[48;5;58m[K[m
+) = 27
+writev(1, [{iov_base="59\33[4D\33[4C\33[48;5;59m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 259[4D[4C[48;5;59m[K[m
+) = 27
+writev(1, [{iov_base="60\33[4D\33[4C\33[48;5;60m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 260[4D[4C[48;5;60m[K[m
+) = 27
+writev(1, [{iov_base="61\33[4D\33[4C\33[48;5;61m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 261[4D[4C[48;5;61m[K[m
+) = 27
+writev(1, [{iov_base="62\33[4D\33[4C\33[48;5;62m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 262[4D[4C[48;5;62m[K[m
+) = 27
+writev(1, [{iov_base="63\33[4D\33[4C\33[48;5;63m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 263[4D[4C[48;5;63m[K[m
+) = 27
+writev(1, [{iov_base="64\33[4D\33[4C\33[48;5;64m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 264[4D[4C[48;5;64m[K[m
+) = 27
+writev(1, [{iov_base="65\33[4D\33[4C\33[48;5;65m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 265[4D[4C[48;5;65m[K[m
+) = 27
+writev(1, [{iov_base="66\33[4D\33[4C\33[48;5;66m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 266[4D[4C[48;5;66m[K[m
+) = 27
+writev(1, [{iov_base="67\33[4D\33[4C\33[48;5;67m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 267[4D[4C[48;5;67m[K[m
+) = 27
+writev(1, [{iov_base="68\33[4D\33[4C\33[48;5;68m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 268[4D[4C[48;5;68m[K[m
+) = 27
+writev(1, [{iov_base="69\33[4D\33[4C\33[48;5;69m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 269[4D[4C[48;5;69m[K[m
+) = 27
+writev(1, [{iov_base="70\33[4D\33[4C\33[48;5;70m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 270[4D[4C[48;5;70m[K[m
+) = 27
+writev(1, [{iov_base="71\33[4D\33[4C\33[48;5;71m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 271[4D[4C[48;5;71m[K[m
+) = 27
+writev(1, [{iov_base="72\33[4D\33[4C\33[48;5;72m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 272[4D[4C[48;5;72m[K[m
+) = 27
+writev(1, [{iov_base="73\33[4D\33[4C\33[48;5;73m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 273[4D[4C[48;5;73m[K[m
+) = 27
+writev(1, [{iov_base="74\33[4D\33[4C\33[48;5;74m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 274[4D[4C[48;5;74m[K[m
+) = 27
+writev(1, [{iov_base="75\33[4D\33[4C\33[48;5;75m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 275[4D[4C[48;5;75m[K[m
+) = 27
+writev(1, [{iov_base="76\33[4D\33[4C\33[48;5;76m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 276[4D[4C[48;5;76m[K[m
+) = 27
+writev(1, [{iov_base="77\33[4D\33[4C\33[48;5;77m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 277[4D[4C[48;5;77m[K[m
+) = 27
+writev(1, [{iov_base="78\33[4D\33[4C\33[48;5;78m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 278[4D[4C[48;5;78m[K[m
+) = 27
+writev(1, [{iov_base="79\33[4D\33[4C\33[48;5;79m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 279[4D[4C[48;5;79m[K[m
+) = 27
+writev(1, [{iov_base="80\33[4D\33[4C\33[48;5;80m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 280[4D[4C[48;5;80m[K[m
+) = 27
+writev(1, [{iov_base="81\33[4D\33[4C\33[48;5;81m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 281[4D[4C[48;5;81m[K[m
+) = 27
+writev(1, [{iov_base="82\33[4D\33[4C\33[48;5;82m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 282[4D[4C[48;5;82m[K[m
+) = 27
+writev(1, [{iov_base="83\33[4D\33[4C\33[48;5;83m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 283[4D[4C[48;5;83m[K[m
+) = 27
+writev(1, [{iov_base="84\33[4D\33[4C\33[48;5;84m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 284[4D[4C[48;5;84m[K[m
+) = 27
+writev(1, [{iov_base="85\33[4D\33[4C\33[48;5;85m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 285[4D[4C[48;5;85m[K[m
+) = 27
+writev(1, [{iov_base="86\33[4D\33[4C\33[48;5;86m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 286[4D[4C[48;5;86m[K[m
+) = 27
+writev(1, [{iov_base="87\33[4D\33[4C\33[48;5;87m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 287[4D[4C[48;5;87m[K[m
+) = 27
+writev(1, [{iov_base="88\33[4D\33[4C\33[48;5;88m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 288[4D[4C[48;5;88m[K[m
+) = 27
+writev(1, [{iov_base="89\33[4D\33[4C\33[48;5;89m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 289[4D[4C[48;5;89m[K[m
+) = 27
+writev(1, [{iov_base="90\33[4D\33[4C\33[48;5;90m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 290[4D[4C[48;5;90m[K[m
+) = 27
+writev(1, [{iov_base="91\33[4D\33[4C\33[48;5;91m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 291[4D[4C[48;5;91m[K[m
+) = 27
+writev(1, [{iov_base="92\33[4D\33[4C\33[48;5;92m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 292[4D[4C[48;5;92m[K[m
+) = 27
+writev(1, [{iov_base="93\33[4D\33[4C\33[48;5;93m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 293[4D[4C[48;5;93m[K[m
+) = 27
+writev(1, [{iov_base="94\33[4D\33[4C\33[48;5;94m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 294[4D[4C[48;5;94m[K[m
+) = 27
+writev(1, [{iov_base="95\33[4D\33[4C\33[48;5;95m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 295[4D[4C[48;5;95m[K[m
+) = 27
+writev(1, [{iov_base="96\33[4D\33[4C\33[48;5;96m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 296[4D[4C[48;5;96m[K[m
+) = 27
+writev(1, [{iov_base="97\33[4D\33[4C\33[48;5;97m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 297[4D[4C[48;5;97m[K[m
+) = 27
+writev(1, [{iov_base="98\33[4D\33[4C\33[48;5;98m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 298[4D[4C[48;5;98m[K[m
+) = 27
+writev(1, [{iov_base="99\33[4D\33[4C\33[48;5;99m\33[K\33[m", iov_len=26}, {iov_base="\n", iov_len=1}], 299[4D[4C[48;5;99m[K[m
+) = 27
+writev(1, [{iov_base="100\33[4D\33[4C\33[48;5;100m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2100[4D[4C[48;5;100m[K[m
+) = 29
+writev(1, [{iov_base="101\33[4D\33[4C\33[48;5;101m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2101[4D[4C[48;5;101m[K[m
+) = 29
+writev(1, [{iov_base="102\33[4D\33[4C\33[48;5;102m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2102[4D[4C[48;5;102m[K[m
+) = 29
+writev(1, [{iov_base="103\33[4D\33[4C\33[48;5;103m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2103[4D[4C[48;5;103m[K[m
+) = 29
+writev(1, [{iov_base="104\33[4D\33[4C\33[48;5;104m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2104[4D[4C[48;5;104m[K[m
+) = 29
+writev(1, [{iov_base="105\33[4D\33[4C\33[48;5;105m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2105[4D[4C[48;5;105m[K[m
+) = 29
+writev(1, [{iov_base="106\33[4D\33[4C\33[48;5;106m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2106[4D[4C[48;5;106m[K[m
+) = 29
+writev(1, [{iov_base="107\33[4D\33[4C\33[48;5;107m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2107[4D[4C[48;5;107m[K[m
+) = 29
+writev(1, [{iov_base="108\33[4D\33[4C\33[48;5;108m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2108[4D[4C[48;5;108m[K[m
+) = 29
+writev(1, [{iov_base="109\33[4D\33[4C\33[48;5;109m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2109[4D[4C[48;5;109m[K[m
+) = 29
+writev(1, [{iov_base="110\33[4D\33[4C\33[48;5;110m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2110[4D[4C[48;5;110m[K[m
+) = 29
+writev(1, [{iov_base="111\33[4D\33[4C\33[48;5;111m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2111[4D[4C[48;5;111m[K[m
+) = 29
+writev(1, [{iov_base="112\33[4D\33[4C\33[48;5;112m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2112[4D[4C[48;5;112m[K[m
+) = 29
+writev(1, [{iov_base="113\33[4D\33[4C\33[48;5;113m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2113[4D[4C[48;5;113m[K[m
+) = 29
+writev(1, [{iov_base="114\33[4D\33[4C\33[48;5;114m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2114[4D[4C[48;5;114m[K[m
+) = 29
+writev(1, [{iov_base="115\33[4D\33[4C\33[48;5;115m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2115[4D[4C[48;5;115m[K[m
+) = 29
+writev(1, [{iov_base="116\33[4D\33[4C\33[48;5;116m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2116[4D[4C[48;5;116m[K[m
+) = 29
+writev(1, [{iov_base="117\33[4D\33[4C\33[48;5;117m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2117[4D[4C[48;5;117m[K[m
+) = 29
+writev(1, [{iov_base="118\33[4D\33[4C\33[48;5;118m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2118[4D[4C[48;5;118m[K[m
+) = 29
+writev(1, [{iov_base="119\33[4D\33[4C\33[48;5;119m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2119[4D[4C[48;5;119m[K[m
+) = 29
+writev(1, [{iov_base="120\33[4D\33[4C\33[48;5;120m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2120[4D[4C[48;5;120m[K[m
+) = 29
+writev(1, [{iov_base="121\33[4D\33[4C\33[48;5;121m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2121[4D[4C[48;5;121m[K[m
+) = 29
+writev(1, [{iov_base="122\33[4D\33[4C\33[48;5;122m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2122[4D[4C[48;5;122m[K[m
+) = 29
+writev(1, [{iov_base="123\33[4D\33[4C\33[48;5;123m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2123[4D[4C[48;5;123m[K[m
+) = 29
+writev(1, [{iov_base="124\33[4D\33[4C\33[48;5;124m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2124[4D[4C[48;5;124m[K[m
+) = 29
+writev(1, [{iov_base="125\33[4D\33[4C\33[48;5;125m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2125[4D[4C[48;5;125m[K[m
+) = 29
+writev(1, [{iov_base="126\33[4D\33[4C\33[48;5;126m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2126[4D[4C[48;5;126m[K[m
+) = 29
+writev(1, [{iov_base="127\33[4D\33[4C\33[48;5;127m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2127[4D[4C[48;5;127m[K[m
+) = 29
+writev(1, [{iov_base="128\33[4D\33[4C\33[48;5;128m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2128[4D[4C[48;5;128m[K[m
+) = 29
+writev(1, [{iov_base="129\33[4D\33[4C\33[48;5;129m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2129[4D[4C[48;5;129m[K[m
+) = 29
+writev(1, [{iov_base="130\33[4D\33[4C\33[48;5;130m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2130[4D[4C[48;5;130m[K[m
+) = 29
+writev(1, [{iov_base="131\33[4D\33[4C\33[48;5;131m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2131[4D[4C[48;5;131m[K[m
+) = 29
+writev(1, [{iov_base="132\33[4D\33[4C\33[48;5;132m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2132[4D[4C[48;5;132m[K[m
+) = 29
+writev(1, [{iov_base="133\33[4D\33[4C\33[48;5;133m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2133[4D[4C[48;5;133m[K[m
+) = 29
+writev(1, [{iov_base="134\33[4D\33[4C\33[48;5;134m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2134[4D[4C[48;5;134m[K[m
+) = 29
+writev(1, [{iov_base="135\33[4D\33[4C\33[48;5;135m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2135[4D[4C[48;5;135m[K[m
+) = 29
+writev(1, [{iov_base="136\33[4D\33[4C\33[48;5;136m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2136[4D[4C[48;5;136m[K[m
+) = 29
+writev(1, [{iov_base="137\33[4D\33[4C\33[48;5;137m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2137[4D[4C[48;5;137m[K[m
+) = 29
+writev(1, [{iov_base="138\33[4D\33[4C\33[48;5;138m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2138[4D[4C[48;5;138m[K[m
+) = 29
+writev(1, [{iov_base="139\33[4D\33[4C\33[48;5;139m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2139[4D[4C[48;5;139m[K[m
+) = 29
+writev(1, [{iov_base="140\33[4D\33[4C\33[48;5;140m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2140[4D[4C[48;5;140m[K[m
+) = 29
+writev(1, [{iov_base="141\33[4D\33[4C\33[48;5;141m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2141[4D[4C[48;5;141m[K[m
+) = 29
+writev(1, [{iov_base="142\33[4D\33[4C\33[48;5;142m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2142[4D[4C[48;5;142m[K[m
+) = 29
+writev(1, [{iov_base="143\33[4D\33[4C\33[48;5;143m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2143[4D[4C[48;5;143m[K[m
+) = 29
+writev(1, [{iov_base="144\33[4D\33[4C\33[48;5;144m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2144[4D[4C[48;5;144m[K[m
+) = 29
+writev(1, [{iov_base="145\33[4D\33[4C\33[48;5;145m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2145[4D[4C[48;5;145m[K[m
+) = 29
+writev(1, [{iov_base="146\33[4D\33[4C\33[48;5;146m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2146[4D[4C[48;5;146m[K[m
+) = 29
+writev(1, [{iov_base="147\33[4D\33[4C\33[48;5;147m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2147[4D[4C[48;5;147m[K[m
+) = 29
+writev(1, [{iov_base="148\33[4D\33[4C\33[48;5;148m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2148[4D[4C[48;5;148m[K[m
+) = 29
+writev(1, [{iov_base="149\33[4D\33[4C\33[48;5;149m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2149[4D[4C[48;5;149m[K[m
+) = 29
+writev(1, [{iov_base="150\33[4D\33[4C\33[48;5;150m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2150[4D[4C[48;5;150m[K[m
+) = 29
+writev(1, [{iov_base="151\33[4D\33[4C\33[48;5;151m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2151[4D[4C[48;5;151m[K[m
+) = 29
+writev(1, [{iov_base="152\33[4D\33[4C\33[48;5;152m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2152[4D[4C[48;5;152m[K[m
+) = 29
+writev(1, [{iov_base="153\33[4D\33[4C\33[48;5;153m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2153[4D[4C[48;5;153m[K[m
+) = 29
+writev(1, [{iov_base="154\33[4D\33[4C\33[48;5;154m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2154[4D[4C[48;5;154m[K[m
+) = 29
+writev(1, [{iov_base="155\33[4D\33[4C\33[48;5;155m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2155[4D[4C[48;5;155m[K[m
+) = 29
+writev(1, [{iov_base="156\33[4D\33[4C\33[48;5;156m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2156[4D[4C[48;5;156m[K[m
+) = 29
+writev(1, [{iov_base="157\33[4D\33[4C\33[48;5;157m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2157[4D[4C[48;5;157m[K[m
+) = 29
+writev(1, [{iov_base="158\33[4D\33[4C\33[48;5;158m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2158[4D[4C[48;5;158m[K[m
+) = 29
+writev(1, [{iov_base="159\33[4D\33[4C\33[48;5;159m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2159[4D[4C[48;5;159m[K[m
+) = 29
+writev(1, [{iov_base="160\33[4D\33[4C\33[48;5;160m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2160[4D[4C[48;5;160m[K[m
+) = 29
+writev(1, [{iov_base="161\33[4D\33[4C\33[48;5;161m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2161[4D[4C[48;5;161m[K[m
+) = 29
+writev(1, [{iov_base="162\33[4D\33[4C\33[48;5;162m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2162[4D[4C[48;5;162m[K[m
+) = 29
+writev(1, [{iov_base="163\33[4D\33[4C\33[48;5;163m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2163[4D[4C[48;5;163m[K[m
+) = 29
+writev(1, [{iov_base="164\33[4D\33[4C\33[48;5;164m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2164[4D[4C[48;5;164m[K[m
+) = 29
+writev(1, [{iov_base="165\33[4D\33[4C\33[48;5;165m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2165[4D[4C[48;5;165m[K[m
+) = 29
+writev(1, [{iov_base="166\33[4D\33[4C\33[48;5;166m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2166[4D[4C[48;5;166m[K[m
+) = 29
+writev(1, [{iov_base="167\33[4D\33[4C\33[48;5;167m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2167[4D[4C[48;5;167m[K[m
+) = 29
+writev(1, [{iov_base="168\33[4D\33[4C\33[48;5;168m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2168[4D[4C[48;5;168m[K[m
+) = 29
+writev(1, [{iov_base="169\33[4D\33[4C\33[48;5;169m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2169[4D[4C[48;5;169m[K[m
+) = 29
+writev(1, [{iov_base="170\33[4D\33[4C\33[48;5;170m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2170[4D[4C[48;5;170m[K[m
+) = 29
+writev(1, [{iov_base="171\33[4D\33[4C\33[48;5;171m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2171[4D[4C[48;5;171m[K[m
+) = 29
+writev(1, [{iov_base="172\33[4D\33[4C\33[48;5;172m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2172[4D[4C[48;5;172m[K[m
+) = 29
+writev(1, [{iov_base="173\33[4D\33[4C\33[48;5;173m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2173[4D[4C[48;5;173m[K[m
+) = 29
+writev(1, [{iov_base="174\33[4D\33[4C\33[48;5;174m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2174[4D[4C[48;5;174m[K[m
+) = 29
+writev(1, [{iov_base="175\33[4D\33[4C\33[48;5;175m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2175[4D[4C[48;5;175m[K[m
+) = 29
+writev(1, [{iov_base="176\33[4D\33[4C\33[48;5;176m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2176[4D[4C[48;5;176m[K[m
+) = 29
+writev(1, [{iov_base="177\33[4D\33[4C\33[48;5;177m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2177[4D[4C[48;5;177m[K[m
+) = 29
+writev(1, [{iov_base="178\33[4D\33[4C\33[48;5;178m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2178[4D[4C[48;5;178m[K[m
+) = 29
+writev(1, [{iov_base="179\33[4D\33[4C\33[48;5;179m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2179[4D[4C[48;5;179m[K[m
+) = 29
+writev(1, [{iov_base="180\33[4D\33[4C\33[48;5;180m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2180[4D[4C[48;5;180m[K[m
+) = 29
+writev(1, [{iov_base="181\33[4D\33[4C\33[48;5;181m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2181[4D[4C[48;5;181m[K[m
+) = 29
+writev(1, [{iov_base="182\33[4D\33[4C\33[48;5;182m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2182[4D[4C[48;5;182m[K[m
+) = 29
+writev(1, [{iov_base="183\33[4D\33[4C\33[48;5;183m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2183[4D[4C[48;5;183m[K[m
+) = 29
+writev(1, [{iov_base="184\33[4D\33[4C\33[48;5;184m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2184[4D[4C[48;5;184m[K[m
+) = 29
+writev(1, [{iov_base="185\33[4D\33[4C\33[48;5;185m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2185[4D[4C[48;5;185m[K[m
+) = 29
+writev(1, [{iov_base="186\33[4D\33[4C\33[48;5;186m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2186[4D[4C[48;5;186m[K[m
+) = 29
+writev(1, [{iov_base="187\33[4D\33[4C\33[48;5;187m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2187[4D[4C[48;5;187m[K[m
+) = 29
+writev(1, [{iov_base="188\33[4D\33[4C\33[48;5;188m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2188[4D[4C[48;5;188m[K[m
+) = 29
+writev(1, [{iov_base="189\33[4D\33[4C\33[48;5;189m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2189[4D[4C[48;5;189m[K[m
+) = 29
+writev(1, [{iov_base="190\33[4D\33[4C\33[48;5;190m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2190[4D[4C[48;5;190m[K[m
+) = 29
+writev(1, [{iov_base="191\33[4D\33[4C\33[48;5;191m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2191[4D[4C[48;5;191m[K[m
+) = 29
+writev(1, [{iov_base="192\33[4D\33[4C\33[48;5;192m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2192[4D[4C[48;5;192m[K[m
+) = 29
+writev(1, [{iov_base="193\33[4D\33[4C\33[48;5;193m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2193[4D[4C[48;5;193m[K[m
+) = 29
+writev(1, [{iov_base="194\33[4D\33[4C\33[48;5;194m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2194[4D[4C[48;5;194m[K[m
+) = 29
+writev(1, [{iov_base="195\33[4D\33[4C\33[48;5;195m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2195[4D[4C[48;5;195m[K[m
+) = 29
+writev(1, [{iov_base="196\33[4D\33[4C\33[48;5;196m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2196[4D[4C[48;5;196m[K[m
+) = 29
+writev(1, [{iov_base="197\33[4D\33[4C\33[48;5;197m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2197[4D[4C[48;5;197m[K[m
+) = 29
+writev(1, [{iov_base="198\33[4D\33[4C\33[48;5;198m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2198[4D[4C[48;5;198m[K[m
+) = 29
+writev(1, [{iov_base="199\33[4D\33[4C\33[48;5;199m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2199[4D[4C[48;5;199m[K[m
+) = 29
+writev(1, [{iov_base="200\33[4D\33[4C\33[48;5;200m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2200[4D[4C[48;5;200m[K[m
+) = 29
+writev(1, [{iov_base="201\33[4D\33[4C\33[48;5;201m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2201[4D[4C[48;5;201m[K[m
+) = 29
+writev(1, [{iov_base="202\33[4D\33[4C\33[48;5;202m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2202[4D[4C[48;5;202m[K[m
+) = 29
+writev(1, [{iov_base="203\33[4D\33[4C\33[48;5;203m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2203[4D[4C[48;5;203m[K[m
+) = 29
+writev(1, [{iov_base="204\33[4D\33[4C\33[48;5;204m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2204[4D[4C[48;5;204m[K[m
+) = 29
+writev(1, [{iov_base="205\33[4D\33[4C\33[48;5;205m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2205[4D[4C[48;5;205m[K[m
+) = 29
+writev(1, [{iov_base="206\33[4D\33[4C\33[48;5;206m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2206[4D[4C[48;5;206m[K[m
+) = 29
+writev(1, [{iov_base="207\33[4D\33[4C\33[48;5;207m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2207[4D[4C[48;5;207m[K[m
+) = 29
+writev(1, [{iov_base="208\33[4D\33[4C\33[48;5;208m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2208[4D[4C[48;5;208m[K[m
+) = 29
+writev(1, [{iov_base="209\33[4D\33[4C\33[48;5;209m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2209[4D[4C[48;5;209m[K[m
+) = 29
+writev(1, [{iov_base="210\33[4D\33[4C\33[48;5;210m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2210[4D[4C[48;5;210m[K[m
+) = 29
+writev(1, [{iov_base="211\33[4D\33[4C\33[48;5;211m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2211[4D[4C[48;5;211m[K[m
+) = 29
+writev(1, [{iov_base="212\33[4D\33[4C\33[48;5;212m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2212[4D[4C[48;5;212m[K[m
+) = 29
+writev(1, [{iov_base="213\33[4D\33[4C\33[48;5;213m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2213[4D[4C[48;5;213m[K[m
+) = 29
+writev(1, [{iov_base="214\33[4D\33[4C\33[48;5;214m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2214[4D[4C[48;5;214m[K[m
+) = 29
+writev(1, [{iov_base="215\33[4D\33[4C\33[48;5;215m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2215[4D[4C[48;5;215m[K[m
+) = 29
+writev(1, [{iov_base="216\33[4D\33[4C\33[48;5;216m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2216[4D[4C[48;5;216m[K[m
+) = 29
+writev(1, [{iov_base="217\33[4D\33[4C\33[48;5;217m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2217[4D[4C[48;5;217m[K[m
+) = 29
+writev(1, [{iov_base="218\33[4D\33[4C\33[48;5;218m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2218[4D[4C[48;5;218m[K[m
+) = 29
+writev(1, [{iov_base="219\33[4D\33[4C\33[48;5;219m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2219[4D[4C[48;5;219m[K[m
+) = 29
+writev(1, [{iov_base="220\33[4D\33[4C\33[48;5;220m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2220[4D[4C[48;5;220m[K[m
+) = 29
+writev(1, [{iov_base="221\33[4D\33[4C\33[48;5;221m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2221[4D[4C[48;5;221m[K[m
+) = 29
+writev(1, [{iov_base="222\33[4D\33[4C\33[48;5;222m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2222[4D[4C[48;5;222m[K[m
+) = 29
+writev(1, [{iov_base="223\33[4D\33[4C\33[48;5;223m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2223[4D[4C[48;5;223m[K[m
+) = 29
+writev(1, [{iov_base="224\33[4D\33[4C\33[48;5;224m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2224[4D[4C[48;5;224m[K[m
+) = 29
+writev(1, [{iov_base="225\33[4D\33[4C\33[48;5;225m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2225[4D[4C[48;5;225m[K[m
+) = 29
+writev(1, [{iov_base="226\33[4D\33[4C\33[48;5;226m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2226[4D[4C[48;5;226m[K[m
+) = 29
+writev(1, [{iov_base="227\33[4D\33[4C\33[48;5;227m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2227[4D[4C[48;5;227m[K[m
+) = 29
+writev(1, [{iov_base="228\33[4D\33[4C\33[48;5;228m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2228[4D[4C[48;5;228m[K[m
+) = 29
+writev(1, [{iov_base="229\33[4D\33[4C\33[48;5;229m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2229[4D[4C[48;5;229m[K[m
+) = 29
+writev(1, [{iov_base="230\33[4D\33[4C\33[48;5;230m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2230[4D[4C[48;5;230m[K[m
+) = 29
+writev(1, [{iov_base="231\33[4D\33[4C\33[48;5;231m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2231[4D[4C[48;5;231m[K[m
+) = 29
+writev(1, [{iov_base="232\33[4D\33[4C\33[48;5;232m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2232[4D[4C[48;5;232m[K[m
+) = 29
+writev(1, [{iov_base="233\33[4D\33[4C\33[48;5;233m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2233[4D[4C[48;5;233m[K[m
+) = 29
+writev(1, [{iov_base="234\33[4D\33[4C\33[48;5;234m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2234[4D[4C[48;5;234m[K[m
+) = 29
+writev(1, [{iov_base="235\33[4D\33[4C\33[48;5;235m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2235[4D[4C[48;5;235m[K[m
+) = 29
+writev(1, [{iov_base="236\33[4D\33[4C\33[48;5;236m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2236[4D[4C[48;5;236m[K[m
+) = 29
+writev(1, [{iov_base="237\33[4D\33[4C\33[48;5;237m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2237[4D[4C[48;5;237m[K[m
+) = 29
+writev(1, [{iov_base="238\33[4D\33[4C\33[48;5;238m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2238[4D[4C[48;5;238m[K[m
+) = 29
+writev(1, [{iov_base="239\33[4D\33[4C\33[48;5;239m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2239[4D[4C[48;5;239m[K[m
+) = 29
+writev(1, [{iov_base="240\33[4D\33[4C\33[48;5;240m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2240[4D[4C[48;5;240m[K[m
+) = 29
+writev(1, [{iov_base="241\33[4D\33[4C\33[48;5;241m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2241[4D[4C[48;5;241m[K[m
+) = 29
+writev(1, [{iov_base="242\33[4D\33[4C\33[48;5;242m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2242[4D[4C[48;5;242m[K[m
+) = 29
+writev(1, [{iov_base="243\33[4D\33[4C\33[48;5;243m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2243[4D[4C[48;5;243m[K[m
+) = 29
+writev(1, [{iov_base="244\33[4D\33[4C\33[48;5;244m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2244[4D[4C[48;5;244m[K[m
+) = 29
+writev(1, [{iov_base="245\33[4D\33[4C\33[48;5;245m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2245[4D[4C[48;5;245m[K[m
+) = 29
+writev(1, [{iov_base="246\33[4D\33[4C\33[48;5;246m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2246[4D[4C[48;5;246m[K[m
+) = 29
+writev(1, [{iov_base="247\33[4D\33[4C\33[48;5;247m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2247[4D[4C[48;5;247m[K[m
+) = 29
+writev(1, [{iov_base="248\33[4D\33[4C\33[48;5;248m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2248[4D[4C[48;5;248m[K[m
+) = 29
+writev(1, [{iov_base="249\33[4D\33[4C\33[48;5;249m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2249[4D[4C[48;5;249m[K[m
+) = 29
+writev(1, [{iov_base="250\33[4D\33[4C\33[48;5;250m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2250[4D[4C[48;5;250m[K[m
+) = 29
+writev(1, [{iov_base="251\33[4D\33[4C\33[48;5;251m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2251[4D[4C[48;5;251m[K[m
+) = 29
+writev(1, [{iov_base="252\33[4D\33[4C\33[48;5;252m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2252[4D[4C[48;5;252m[K[m
+) = 29
+writev(1, [{iov_base="253\33[4D\33[4C\33[48;5;253m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2253[4D[4C[48;5;253m[K[m
+) = 29
+writev(1, [{iov_base="254\33[4D\33[4C\33[48;5;254m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2254[4D[4C[48;5;254m[K[m
+) = 29
+writev(1, [{iov_base="255\33[4D\33[4C\33[48;5;255m\33[K\33[m", iov_len=28}, {iov_base="\n", iov_len=1}], 2255[4D[4C[48;5;255m[K[m
+) = 29
+read(255, "", 230)                      = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 90.02    0.185360         724       256           writev
+  1.66    0.003411         243        14           rt_sigaction
+  1.34    0.002755        2754         1           execve
+  1.13    0.002319         257         9           brk
+  1.06    0.002186         273         8           stat64
+  0.71    0.001460         243         6           rt_sigprocmask
+  0.39    0.000799         199         4         4 ioctl
+  0.38    0.000776         387         2           open
+  0.36    0.000735         244         3           read
+  0.35    0.000726         241         3           _llseek
+  0.31    0.000639         212         3         1 fcntl64
+  0.27    0.000547         273         2           clock_gettime
+  0.26    0.000530         264         2           close
+  0.24    0.000487         243         2           getpid
+  0.21    0.000426         212         2           prlimit64
+  0.20    0.000402         401         1           mprotect
+  0.13    0.000277         276         1           fstat64
+  0.11    0.000232         231         1           dup2
+  0.11    0.000221         220         1           set_tls
+  0.10    0.000216         215         1           set_tid_address
+  0.10    0.000211         210         1           getuid32
+  0.10    0.000208         207         1           getgid32
+  0.10    0.000207         206         1           getpgid
+  0.10    0.000206         205         1           uname
+  0.10    0.000199         198         1           getppid
+  0.09    0.000193         192         1           getegid32
+  0.09    0.000192         191         1           geteuid32
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.205920                   329         5 total
